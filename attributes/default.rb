@@ -181,6 +181,10 @@ default['datadog']['statsd_metric_namespace'] = nil
 default['datadog']['histogram_aggregates'] = 'max, median, avg, count'
 default['datadog']['histogram_percentiles'] = '0.95'
 
+# Multiple endpoints/api_keys settings
+default['datadog']['other_dd_urls'] = nil # list of endpoints
+default['datadog']['other_api_keys'] = nil # list of api_keys
+
 # For service-specific configuration, use the integration recipes included
 # in this cookbook, and apply them to the appropirate node's run list.
 # Read more at http://docs.datadoghq.com/
