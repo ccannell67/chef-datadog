@@ -1,6 +1,10 @@
 Changes
 =======
 
+# 2.5.1 / 2016-08-08
+
+* [FEATURE] disable dogstatsd with attribute default['datadog']['dogstatsd'] = false
+
 # 2.5.0 / 2016-08-08
 
 * [FEATURE] Add support for `extra_packages` agent checks, [#271][] [@tmichelet][]
